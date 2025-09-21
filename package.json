@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --no-scope-hoist"
   },
   "author": "Dimitar Mandarliev",
   "license": "ISC",
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "core-js": "^3.45.1",
+    "fracty": "^1.0.12",
     "regenerator-runtime": "^0.14.1"
   }
 }
